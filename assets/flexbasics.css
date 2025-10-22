@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    /*il valore di default di display:flex è flex-direction:row */
+    flex-direction: row;
+    border: 2px dotted gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    height: 300px;
+     align-items: flex-start;
+     align-items: center;
+}
+.flex-container article{
+    padding: 1em;
+    background-color: rgb(247, 247, 86);
+    width: 35px;
+    border: 1px solid white;
+    
+}
